@@ -1,0 +1,11 @@
+LIBRARIES USED TO SATISFY THE REEQUIREMENT ARE:
+
+1. THREADING:
+This is used for creating and managing threads
+Code: import threading
+2. Collections
+This is used to create defaultdict
+Code: from collections import defaultdict
+3. Queue:
+This is used in the implementation of thread-safe queue to store the intermediate and final output
+Code: from queue import Queue
